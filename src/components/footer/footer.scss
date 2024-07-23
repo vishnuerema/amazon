@@ -10,8 +10,8 @@ body {
 
 .footer {
   background-color: $primary-color;
-  color: $text-color;
-  padding: $padding 0;
+  color: $white-color;
+  padding: $padding-20 0;
 
   a {
     @include footer-link;
@@ -19,7 +19,7 @@ body {
 
   &-top {
     border-bottom: 1px solid $secondary-color;
-    padding-bottom: $padding;
+    padding-bottom: $padding-20;
   }
 
   .container {
@@ -33,10 +33,10 @@ body {
   &-column {
     flex: 1;
     min-width: 200px;
-    margin: $margin;
+    margin: $margin-10;
 
     h4 {
-      margin-bottom: $margin;
+      margin-bottom: $margin-10;
       font-size: $font-size-large;
     }
 
@@ -46,13 +46,13 @@ body {
       margin: 0;
 
       li {
-        margin-bottom: $margin;
+        margin-bottom: $margin-10;
       }
     }
   }
 
   &-bottom {
-    padding-top: $padding;
+    padding-top: $padding-20;
     text-align: center;
 
     &-links {
@@ -62,7 +62,7 @@ body {
 
       li {
         display: inline;
-        margin: 0 $margin;
+        margin: 0 $margin-10;
       }
     }
   }
