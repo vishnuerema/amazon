@@ -1,0 +1,22 @@
+// mixins.scss
+@mixin container {
+    width: $container-width;
+    max-width: $container-max-width;
+    margin: 0 auto;
+  }
+  
+  @mixin flex-center {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  @mixin footer-link {
+    color: $text-color;
+    text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
