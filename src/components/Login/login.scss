@@ -1,0 +1,82 @@
+// src/Login.scss
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .input-group {
+      margin-bottom: 15px;
+      text-align: left;
+  
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+  
+      input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        font-size: 14px;
+      }
+    }
+  
+    button[type="submit"] {
+      background-color: #f0c14b;
+      border: 1px solid #a88734;
+      color: #111;
+      padding: 10px;
+      width: 100%;
+      border-radius: 3px;
+      font-size: 16px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #ddb347;
+      }
+    }
+  
+    .new-account {
+      margin-top: 20px;
+  
+      span {
+        display: block;
+        margin-bottom: 10px;
+      }
+  
+      button {
+        background-color: #e7e9ec;
+        border: 1px solid #adb1b8;
+        color: #111;
+        padding: 10px;
+        width: 100%;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #d6d8da;
+        }
+      }
+    }
+  }
+  
